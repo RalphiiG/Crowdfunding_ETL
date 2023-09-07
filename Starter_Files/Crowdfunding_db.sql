@@ -1,4 +1,13 @@
 -- create a table for contacts and assign data types, constraints, and primary keys
+
+-- Database: crowdfunding_db
+
+-- drop existing tables if they exist
+drop table if exists contacts;
+drop table if exists category;
+drop table if exists subcategory;
+drop table if exists campaign;
+
 CREATE TABLE contacts (
     contact_id INTEGER  NOT NULL ,
     first_name VARCHAR(50)  NOT NULL ,
